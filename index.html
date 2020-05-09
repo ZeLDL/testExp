@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test task</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="menu">
+      <div class="menu__back-but">
+        <a class="menu__back-but__link" href="#">
+          <p class="menu__back-but__link__text">Daily activities</p>
+        </a>
+      </div>
+      <div class="menu__article">
+        <h2 class="menu__article__h2"> Bathing & Showering </h2>
+      </div>
+      <div class="menu__panel">
+        <div class="menu__panel__search">
+          <input type="text" placeholder="Search">
+        </div>
+        <div class="menu__panel__font-size">
+          <input type="text" placeholder="Font Size">
+        </div>
+        <div class="menu__panel__login-icon">
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <div class="container">
+        <div class="wrap-heading">
+          <h1 class="wrap-heading__head">Personalized suggestions just for <bold>your mom</bold>
+          </h1>
+        </div>
+        <div class="wrap-filter">
+          <p class="wrap-filter__label">Refine suggestions:</p>
+          <button class="wrap-filter__but wrap-filter__but_focus" autofocus>Reduce scare and anxiety</button>
+          <button class="wrap-filter__but">Preparation for bathing</button>
+          <button class="wrap-filter__but">Communication</button>
+          <button class="wrap-filter__but">Favorites</button>
+        </div>
+      </div>
+    </article>
+    <section>
+      <div class="container">
+        <div class="block-head">
+          <h3 class="block-head__label">Try care tips</h3>
+          <button class="block-head__but all-views">All care tips <div class="trait"></div></button>
+        </div>
+        <div class="tips-block">
+          <p class="tips-block__text">Prepare the bath or shower ahead of time. Raise the room temperature, turn on the
+            lights, install the shower stool, prepare towels, fresh gown and toiletries. If the person likes, have some
+            soft music on.</p>
+          <input type="checkbox" id="check1" class="tips-block__img but-star"></input>
+          <label class="but-star-lb" for="check1"></label>
+        </div>
+        <div class="tips-block">
+          <p class="tips-block__text">If possible, try to match the home bathing or showering routine including time and
+            personal preferences.</p>
+          <input type="checkbox" id="check2" class="tips-block__img but-star"></input>
+          <label class="but-star-lb" for="check2"></label>
+        </div>
+        <div class="tips-block">
+          <p class="tips-block__text">Cover mirrors with a towel or paper. This will prevent the person from getting
+            scared by their own reflection. Sometimes a person with dementia does not recognize themselves in the mirror
+            and think they are seeing an intruder.</p>
+          <input type="checkbox" id="check3" class="tips-block__img but-star"></input>
+          <label class="but-star-lb" for="check3"></label>
+        </div>
+      </div>
+
+    </section>
+    <section>
+      <div class="container">
+        <div class="block-head">
+          <h3 class="block-head__label">Watch videos</h3>
+          <button class="block-head__but all-views">All videos <div class="trait"></div></button>
+        </div>
+        <div class="video-wrap">
+          <div class="video-block video-block_active">
+            <div class="video-block__player video-block__player_active">
+              <video id="myvideo" width="220" height="138">
+                <source src="trailer_480p.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                <source src="trailer_480p.webm" type='video/webm; codecs="vorbis,vp8"' />
+              </video>
+              <input type="checkbox" id="check11" class="video-star but-star-v"></input>
+              <label class="but-star-lb-v" for="check11"></label>
+              <div class="video-time">
+                <p>6:12</p>
+              </div>
+              <button class="video-play"><img src="img/play.svg" class="video-play__play" alt="play"></button>
+            </div>
+            <div class="video-block__text">
+              <p> Learn what to do when the person refuses to bathe. (4 minutes)</p>
+            </div>
+          </div>
+          <div class="video-block">
+            <div class="video-block__player">
+              <video id="myvideo2" width="220" height="138">
+                <source src="trailer_480p.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                <source src="trailer_480p.webm" type='video/webm; codecs="vorbis,vp8"' />
+              </video>
+              <input type="checkbox" id="check22" class="video-star but-star-v"></input>
+              <label class="but-star-lb-v" for="check22"></label>
+              <div class="video-time">
+                <p>6:12</p>
+              </div>
+            </div>
+            <div class="video-block__text">
+              <p>Try engaging the person with their favorite music. If you don't know, try po…</p>
+            </div>
+          </div>
+          <div class="video-block">
+            <div class="video-block__player">
+              <video id="myvideo3" width="220" height="138">
+                <source src="trailer_480p.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                <source src="trailer_480p.webm" type='video/webm; codecs="vorbis,vp8"' />
+              </video>
+              <input type="checkbox" id="check33" class="video-star but-star-v"></input>
+              <label class="but-star-lb-v" for="check33"></label>
+              <div class="video-time">
+                <p>6:12</p>
+              </div>
+            </div>
+            <div class="video-block__text">
+              <p>New or worse anxiety.</p>
+            </div>
+          </div>
+          <div class="video-block">
+            <div class="video-block__player">
+              <video id="myvideo4" width="220" height="138">
+                <source src="trailer_480p.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                <source src="trailer_480p.webm" type='video/webm; codecs="vorbis,vp8"' />
+              </video>
+              <input type="checkbox" id="check44" class="video-star but-star-v"></input>
+              <label class="but-star-lb-v" for="check44"></label>
+              <div class="video-time">
+                <p>6:12</p>
+              </div>
+            </div>
+            <div class="video-block__text">
+              <p>A Brief History Of Anesthetics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="block-head">
+          <h3 class="block-head__label">Listen to podcasts</h3>
+          <button class="block-head__but all-views">All podcasts <div class="trait"></div></button>
+        </div>
+        <ol class="accordion">
+          <li class="accordion__li">
+            <a href="#el-1" class="accordion__li__props">
+              <div id="el-1" class="podcasts-row">
+                <div class="podcasts-wrap-el list-num">
+                  <p>1.</p>
+                </div>
+                <div class="podcasts-wrap-el list-text">
+                  <p>A Brief History Of Anesthetics</p>
+                </div>
+                <div class="podcasts-wrap-el list-time">
+                  <p>12:26</p>
+                </div>
+                <div class="podcasts-wrap-el list-star"><input type="checkbox" id="check21" class="but-star"></input>
+                  <label class="but-star-lb" for="check21"></label>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li class="accordion__li">
+            <a href="#el-2" class="accordion__li__props">
+              <div id="el-2" class="podcasts-row">
+                <div class="podcasts-wrap-el list-num">
+                  <p>2.</p>
+                </div>
+                <div class="podcasts-wrap-el list-text">
+                  <p>24×7 Medications Online Service</p>
+                </div>
+                <div class="podcasts-wrap-el list-time">
+                  <p>12:26</p>
+                </div>
+                <div class="podcasts-wrap-el list-star"><input type="checkbox" id="check22" class="but-star"></input>
+                  <label class="but-star-lb" for="check22"></label>
+                </div>
+              </div>
+            </a>
+
+          </li>
+          <li class="accordion__li">
+            <a href="#el-3" class="accordion__li__props">
+              <div id="el-3" class="podcasts-row podcasts-row_active">
+                <div class="podcasts-wrap-el list-num player-center">
+                  <p class="list-num_none" >3.</p>
+                  <button class="list-num__player_none list-num__player audio-play">
+                    <img src="img/play.svg" class="audio-play__play" alt="play">
+                  </button>
+                </div>
+                <div class="podcasts-wrap-el list-text">
+                  <p>Learn how to practice the self-compassion break. You can listen to the podcast. Compassion starts
+                    with oneself and it can be learned. It will help you feel more compassion for yourself and the
+                    person in your care. (6 minutes)</p>
+                </div>
+                <div class="podcasts-wrap-el list-time">
+                  <p>6:12</p>
+                </div>
+                <div class="podcasts-wrap-el list-star"><input type="checkbox" id="check23" class="but-star"></input>
+                  <label class="but-star-lb" for="check23"></label>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="block-head">
+          <h3 class="block-head__label">Chesk useful links</h3>
+        </div>
+        <div class="check-block">
+          <div class="check-text-wrap">
+            <p>Learn about palliative care. Palliative care can help people with a serious illness at any stage.</p>
+            <input type="checkbox" id="check31" class="check-text-wrap__img but-star"></input><label class="but-star-lb"
+              for="check31"></label>
+          </div>
+          <a class="check-link"
+            href="http://palliativedoctors.org/palliative/care">http://palliativedoctors.org/palliative/care</a>
+        </div>
+        <div class="check-block">
+          <div class="check-text-wrap">
+            <p>Prepare the bath or shower ahead of time. Raise the room temperature, turn on the lights, install the
+              shower stool, prepare towels, fresh gown and toiletries. If the person likes, have some soft music on.</p>
+            <input type="checkbox" id="check32" class="check-text-wrap__img but-star"></input><label class="but-star-lb"
+              for="check32"></label>
+          </div>
+          <a class="check-link"
+            href="http://palliativedoctors.org/palliative/supercare">http://palliativedoctors.org/palliative/supercare</a>
+        </div>
+      </div>
+
+    </section>
+    <section>
+      <div class="container">
+        <div class="block-head">
+          <h3 class="block-head__label">Read important documents</h3>
+          <button class="block-head__but all-views">All documents <div class="trait"></div></button>
+        </div>
+        <div class="doc-block">
+          <div class="doc-block__wrap">
+            <a class="doc-block__wrap__doc" href="/img/rectangle-copy.jpg" download></a>
+            <div class="doc-text-wrap">
+              <p>What Is Classical Homeopathy</p>
+              <input type="checkbox" id="check41" class="doc-text-wrap__img but-star"></input><label class="but-star-lb"
+                for="check41"></label>
+            </div>
+            <p class="doc-time-read">6 min read</p>
+          </div>
+        </div>
+        <div class="doc-block">
+          <div class="doc-block__wrap">
+            <a class="doc-block__wrap__doc" href="/img/rectangle-copy.jpg" download></a>
+            <div class="doc-text-wrap">
+              <p>Read more about 'Older Adults and Depression', and be on the lookout for warning signs. Seek help
+                early.</p>
+              <input type="checkbox" id="check42" class="doc-text-wrap__img but-star"></input><label class="but-star-lb"
+                for="check42"></label>
+            </div>
+            <p class="doc-time-read">11 min read</p>
+          </div>
+        </div>
+        <div class="doc-block">
+          <div class="doc-block__wrap">
+            <a class="doc-block__wrap__doc" href="/img/rectangle-copy.jpg" download></a>
+            <div class="doc-text-wrap">
+              <p>Learn how to practice the self-compassion break. You can listen to the podcast. Compassion starts with
+                oneself and it can be learned. It will help you feel more compassion for yourself and the person in your
+                care.</p>
+              <input type="checkbox" id="check43" class="doc-text-wrap__img but-star"></input><label class="but-star-lb"
+                for="check43"></label>
+            </div>
+            <p class="doc-time-read">4 min read</p>
+          </div>
+        </div>
+        <div class="doc-block">
+          <div class="doc-block__wrap">
+            <a class="doc-block__wrap__doc" href="/img/rectangle-copy.jpg" download></a>
+            <div class="doc-text-wrap">
+              <p>What Is Classical Homeopathy</p>
+              <input type="checkbox" id="check44" class="doc-text-wrap__img but-star"></input><label class="but-star-lb"
+                for="check44"></label>
+            </div>
+            <p class="doc-time-read">6 min read</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__copyright">
+      <p class="footer__copyright__text">Copyright © 2020 ERIS. All rights reserved.</p>
+    </div>
+    <div class="footer__info">
+      <a class="footer__info__link" href="#">Medical Disclaimer</a>
+      <a class="footer__info__link" href="#">Terms of Use</a>
+      <a class="footer__info__link" href="#">Privacy</a>
+    </div>
+  </footer>
+</body>
+
+</html>
