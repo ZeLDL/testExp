@@ -72,14 +72,14 @@ p {
 	display:none;
 }
 .but-star-lb:after {
-	content: url(/img/star.svg);
+	content: url(../img/star.svg);
 	display:block;
 	width: 28px;
     height: 28px;
 	
 }
 .but-star:checked + .but-star-lb:after {
-    content: url(/img/star-active.svg);
+    content: url(../img/star-active.svg);
 	display:block;
 	width: 28px;
     height: 28px;
@@ -89,14 +89,14 @@ p {
 	display:none;
 }
 .but-star-lb-v:after {
-	content: url(/img/star-video.svg);
+	content: url(../img/star-video.svg);
 	position: absolute;
     top: 16px;
     right: 16px;
 	
 }
 .but-star-v:checked + .but-star-lb-v:after {
-    content: url(/img/star-active-v.svg);
+    content: url(../img/star-active-v.svg);
 	position: absolute;
     top: 16px;
     right: 16px;
@@ -157,7 +157,7 @@ button:focus {
     &__link:before {
       display: flex;
       align-items: center;
-      content: url(/img/back.svg);
+      content: url(../img/back.svg);
       width: 28px;
       height: 28px;
       margin-right: 8px;
@@ -190,7 +190,7 @@ button:focus {
     &__search:before {
       display: flex;
       align-items: center;
-      content: url(/img/search.svg);
+      content: url(../img/search.svg);
       width: 28px;
       height: 28px;
       margin-right: 8px;
@@ -206,7 +206,7 @@ button:focus {
     &__font-size:before {
       display: flex;
       align-items: center;
-      content: url(/img/question.svg);
+      content: url(../img/question.svg);
       width: 28px;
       height: 28px;
       margin-right: 8px;
@@ -214,7 +214,7 @@ button:focus {
     &__login-icon {
       @extend %equal-heights;
       justify-content: flex-end;
-      background: url(/img/rectangle-copy.jpg);
+      background: url(../img/rectangle-copy.jpg);
       border-radius: 100%;
       width: 28px;
       height: 28px;
@@ -281,7 +281,7 @@ button:focus {
       align-items: center;
     }
     &__but:last-child::before {
-      content: url(/img/star-active.svg);
+      content: url(../img/star-active.svg);
       width: 28px;
       height: 28px;
       margin-right: 8px;
@@ -358,16 +358,16 @@ button:focus {
       border-radius: 4px;
       margin: 8px 8px 25px 8px;
       #myvideo {
-        background: rgba(51, 51, 51, 0.6) url(/img/rectangle-copy.jpg);
+        background: rgba(51, 51, 51, 0.6) url(../img/rectangle-copy.jpg);
       }
       #myvideo2 {
-        background: rgba(51, 51, 51, 0.6) url(/img/rectangle-copy.jpg);
+        background: rgba(51, 51, 51, 0.6) url(../img/rectangle-copy.jpg);
       }
       #myvideo3 {
-        background: rgba(51, 51, 51, 0.6) url(/img/rectangle-copy-2.jpg);
+        background: rgba(51, 51, 51, 0.6) url(../img/rectangle-copy-2.jpg);
       }
       #myvideo4 {
-        background: rgba(51, 51, 51, 0.6) url(/img/rectangle-copy-3.jpg);
+        background: rgba(51, 51, 51, 0.6) url(../img/rectangle-copy-3.jpg);
       }
       .video-star {
         position: absolute;
@@ -536,7 +536,7 @@ content: counters(li,".") ". ";
         display: flex;
         align-items: center;
         position: absolute;
-        content: url(/img/doc.svg);
+        content: url(../img/doc.svg);
         width: 28px;
         height: 28px;
         top:22px;
